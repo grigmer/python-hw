@@ -1,0 +1,11 @@
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+m = 0
+if n1 <= n2:
+    m = n1
+else:
+    m = n2
+if n3 < m:
+    m = n3
+print(m)
