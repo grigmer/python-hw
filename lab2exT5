@@ -1,0 +1,15 @@
+import turtle
+turtle.shape('turtle')
+def square(n):
+    for i in range(3):
+        turtle.forward(n)
+        turtle.left(90)
+    turtle.forward(n)
+    turtle.penup()
+    turtle.forward(5)
+    turtle.right(90)
+    turtle.forward(5)
+    turtle.left(180)
+    turtle.pendown()
+for i in range(10):
+    square(10*i)
