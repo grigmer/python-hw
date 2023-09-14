@@ -1,0 +1,6 @@
+def f(n):
+    a = 0
+    for i in range(n):
+        a += (i+1)**2
+    return a
+print(f(int(input())))
