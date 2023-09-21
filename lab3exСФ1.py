@@ -1,4 +1,4 @@
-with open('файлСФ1.txt', 'r') as f:
+with open('СФ1.txt', 'r') as f:
     n = int(f.readline())
 
     m = None
